@@ -2,6 +2,9 @@
 
 /* FONT WEIGHT: 300, 400, 500 600, 700, 800, 900 */
 
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
@@ -148,11 +151,13 @@ body {
 
 /* Pitch Summary */
 
-.summary-progress > .progress-rate {
-  font-weight: 0.8rem;
+.summary-progress .progress-rate {
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .progress-label {
+  font-size: 0.9rem;
   font-weight: 500;
 }
 
@@ -177,10 +182,65 @@ body {
 }
 
 /* Recent Events */
+.btn-next-event {
+  position: absolute;
+  top: 10rem;
+  right: 1.5rem;
+  background-color: rgb(48, 175, 248);
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 40px;
+  z-index: 2;
+}
+.btn-next-event .fa-chevron-right {
+  font-size: 0.9rem;
+}
+.calendar-box {
+  width: max-content;
+  padding: 0.4rem 1rem;
+  margin: 2px 1rem 2px 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
 
-.box {
-  width: 20%;
-  height: 13.1vh;
-  margin: 1rem;
-  background-color: aqua;
+.calendar-icon {
+  margin: 1rem 0.5rem 0 0;
+}
+.calendar-date {
+  padding: 0;
+  font-size: 2.5rem;
+}
+.calendar-month {
+  margin: 0.7rem 0 0 0.5rem;
+}
+.event-type > .calendar-event-type {
+  width: 90%;
+  font-size: 0.8rem;
+}
+.player-member {
+  width: max-content;
+}
+.x-small {
+  width: 30px;
+  height: 20px;
+}
+.fade-calendar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 300px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 1)
+  );
+  width: 40%;
+  z-index: 1;
+}
+/* Data Table Person Info */
+
+.data-nav {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0 1.5rem 0 0;
+  color: rgb(40,40,40);
 }
