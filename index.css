@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+/* FONT WEIGHT: 300, 400, 500 600, 700, 800, 900 */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(50, 50, 50, 0.1);
+}
+
+/* Header */
+
+.header .logo {
+  width: 70%;
+}
+
+.header .custom-btn-toggler {
+  position: absolute;
+  right: 5%;
+  top: 10px;
+}
+
+.header .custom-nav {
+  width: max-content;
+}
+
+.custom-link .nav-link {
+  padding: 1rem 3rem;
+}
+
+.marucci > .marucci-link {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* profile dropdown */
+
+.profile-dropdown {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  clip-path: circle(40% at 50% 50%);
+}
+
+.small-img {
+  width: 60px;
+  height: 40px;
+}
+
+.white {
+  background-color: rgb(255, 255, 255);
+  height: 20vh;
+}
+
+/* End style of header */
+
+/* Dashboard Style */
+
+/* Personal Info */
+
+.personal-info-card {
+  position: relative;
+}
+
+.personal-info-card > .edit-info {
+  position: absolute;
+  right: 5%;
+  top: 2%;
+  width: 2.3rem;
+  height: 2.3rem;
+  outline: none;
+  border: none;
+  padding: 5px;
+  background: rgb(48, 175, 248);
+  border-radius: 60px;
+}
+
+.personal-info-card .fullname {
+  font-weight: 00;
+}
+
+.large-img {
+  width: 140px;
+  height: 100px;
+}
+
+.info-heading {
+  width: max-content;
+  margin: 0 1rem 0 0;
+  font-weight: 800;
+}
+
+.info-divider > .info-heading.personal-heading {
+  width: 90%;
+  margin-right: 0;
+}
+
+.line-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(50, 50, 50, 0.3);
+}
+
+.icon-description {
+  margin: 0.6rem 0;
+}
+
+.icon-description > .info-icon {
+  margin-right: 0.8rem;
+}
+
+.info-attribute {
+  width: 24%;
+  height: auto;
+  text-align: left;
+}
+
+.reflect {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* ---- */
+
+/* School */
+
+.small-heading {
+  font-size: 0.8rem;
+}
+
+/* end school style */
+
+/*  */
+
+/* Bio */
+
+.bio-container .bio-story {
+  font-size: 0.9rem;
+  line-height: 2.1em;
+}
+
+/* Pitch Summary */
+
+.summary-progress > .progress-rate {
+  font-weight: 0.8rem;
+}
+
+.progress-label {
+  font-weight: 500;
+}
+
+.summary-progress > .custom-progress {
+  height: 10px;
+}
+
+.custom-progress > .progress-style {
+  background-color: rgb(255, 210, 32);
+}
+
+.progress-fastball {
+  width: 78%;
+}
+
+.progress-spin {
+  width: 85%;
+}
+
+.progress-pitch {
+  width: 90%;
+}
+
+/* Recent Events */
+
+.box {
+  width: 20%;
+  height: 13.1vh;
+  margin: 1rem;
+  background-color: aqua;
+}

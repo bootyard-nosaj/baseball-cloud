@@ -1,0 +1,81 @@
+@media only screen and (max-width: 576px) {
+    /* x-small <= 576px */
+    .header {
+        display: block;
+        padding: 1rem;
+    }
+    .header .logo {
+        width: 60%;
+        height: 30%;
+    }
+    .header .custom-btn-toggler {
+        position: absolute;
+        right: 1rem;
+        top: 1.2rem;
+    }
+    .profile-dropdown {
+        display: inline-block;
+    }
+    .profile-dropdown .profile-picture {
+        position: absolute;
+        left: -10px;
+        top: 8px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    /* small >= 576px */
+    .header {
+        display: block;
+        padding: 1rem;
+    }
+    .profile-dropdown {
+        display: inline-block;
+    }
+    .profile-dropdown .profile-picture {
+        position: absolute;
+        left: -10px;
+        top: 8px;
+    }
+    .header .custom-btn-toggler {
+        position: absolute;
+        right: 8%;
+        top: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* Medium >= 768 */
+    .header .custom-btn-toggler {
+        position: absolute;
+        right: 5%;
+        top: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* Large >= 992px */
+    .header {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-dropdown {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-dropdown .profile-picture {
+        position: unset;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* X-large >= 1200px */
+}
+
+@media only screen and (min-width: 1400px) {
+    /* XX-Large >= 1400px */
+}

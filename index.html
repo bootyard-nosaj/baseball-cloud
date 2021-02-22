@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bs5/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/80e259b08b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Master Website | 2 Baseball Cloud </title>
+</head>
+
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="header d-lg-flex justify-content-lg-between align-items-lg-center p-lg-0">
+                <a href="#"><img class="logo" src="/assets/logo.png" alt="logo"></a>
+                <button class="navbar-toggler custom-btn-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse custom-nav" id="navbarNavDropdown">
+                    <ul class="navbar-nav custom-link">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Leaderboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Network</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item marucci">
+                            <a class="nav-link marucci-link" href="#">marucci</a>
+                        </li>
+                        <!-- profile dropdown action -->
+                        <li class="nav-item dropdown profile-dropdown">
+                            <a href="#"><img class="profile-picture small-img" src="/assets/profile-picture.jpg"
+                                    alt="profile-picture"></a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Jason Wallace
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Account Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Baseball Team</a></li>
+                                <li><a class="dropdown-item" href="#">Find Team</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Nav Bar -->
+
+    <!-- Dashboard -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <!-- Personal Information Card -->
+                <div class="card my-4">
+                    <div class="personal-info-card px-3 ">
+                        <button class="btn edit-info"><span><i class="fas fa-pen text-white"></i></span></button>
+                        <div class="d-flex justify-content-center align-items-center flex-column mt-5">
+                            <img class="profile-picture large-img" src="/assets/profile-picture.jpg"
+                                alt="Profile Picture">
+                            <h5 class="fullname mt-2">Jason Wallace</h5>
+                            <h6 class="role-posititon mb-3">Pitcher</h6>
+                        </div>
+                        <div class="info-divider d-lg-flex justify-content-lg-center align-items-lg-center">
+                            <h6 class="info-heading personal-heading">Personal Info</h6>
+                            <div class="line-divider"></div>
+                        </div>
+                        <!-- Personal info -->
+                        <div class="player-information my-4">
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <div class="icon-description justify-content-between d-flex align-items-center">
+                                    <img class="info-icon" src="/assets/age.svg" alt="age">
+                                    <h6 class="m-0">Age</h6>
+                                </div>
+                                <div class="info-attribute">
+                                    <h6 class="m-0">20</h6>
+                                </div>
+                            </div>
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <div class="icon-description justify-content-between d-flex align-items-center">
+                                    <img class="info-icon" src="/assets/height.svg" alt="height">
+                                    <h6 class="m-0">Height</h6>
+                                </div>
+                                <div class="info-attribute">
+                                    <h6 class="m-0">5ft 4 in</h6>
+                                </div>
+
+                            </div>
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <div class="icon-description justify-content-between d-flex align-items-center">
+                                    <img class="info-icon" src="/assets/weight.svg" alt="weight">
+                                    <h6 class="m-0">Weight</h6>
+                                </div>
+                                <div class="info-attribute">
+                                    <h6 class="m-0">83 kg</h6>
+                                </div>
+                            </div>
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <div class="icon-description justify-content-between d-flex align-items-center">
+                                    <img class="info-icon" src="/assets/ball.svg" alt="throws">
+                                    <h6 class="m-0">Throws</h6>
+                                </div>
+                                <div class="info-attribute">
+                                    <h6 class="m-0">R</h6>
+                                </div>
+                            </div>
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <div class="icon-description justify-content-between d-flex align-items-center">
+                                    <img class="info-icon reflect" src="/assets/baseball_bat.svg" alt="bats">
+                                    <h6 class="m-0">Bats</h6>
+                                </div>
+                                <div class="info-attribute">
+                                    <h6 class="m-0 text-style">L</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end personal info -->
+                        <!--  -->
+                        <!-- School -->
+                        <div class="school-information mb-4">
+                            <div class="info-divider d-lg-flex justify-content-lg-center align-items-lg-center">
+                                <h6 class="info-heading school-heading">School</h6>
+                                <div class="line-divider"></div>
+                            </div>
+                            <div class="school my-3">
+                                <p class="mb-1 small-heading">School</p>
+                                <h6>St. Johns River</h6>
+                            </div>
+                            <div class="school-year my-3">
+                                <p class="mb-1 small-heading">School Year</p>
+                                <h6>Junior</h6>
+                            </div>
+                            <div class="summer-team my-3">
+                                <p class="mb-1 small-heading">Summer Team</p>
+                                <h6>Scorpions</h6>
+                            </div>
+                            <div class="college-commitment my-3">
+                                <p class="mb-1 small-heading">College Commitment</p>
+                                <h6>University of Florida</h6>
+                            </div>
+                        </div>
+                        <!-- end school info -->
+                        <!--  -->
+                        <!-- Bio -->
+                        <div class="bio mb-4">
+                            <div class="info-divider d-lg-flex justify-content-lg-center align-items-lg-center">
+                                <h6 class="info-heading">Bio</h6>
+                                <div class="line-divider"></div>
+                            </div>
+                            <div class="bio-container">
+                                <p class="mt-3 bio-story">US, baseball. Siet numerous baseball records - was famous for
+                                    his big hitting. He won many titles with the New York Yankees</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <!-- Pitcher Summary Card -->
+                <div class="card my-lg-4 ">
+                    <div class="pitch-summary-card py-5 px-4">
+                        <div class="pitch-summary mb-4">
+                            <h6 class="info-heading">Pitch Summary</h6>
+                        </div>
+                        <!-- Progress Bar Component Fast Velocity -->
+                        <div class="summary-progress mb-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="progress-label mb-1">FastBall Velocity</p>
+                                <h6 class="progress-rate m-0">93.6</h6>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-style progress-fastball" role="progressbar"
+                                    aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- Progress Bar Component Spin Rate  -->
+                        <div class="summary-progress mb-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="progress-label mb-1">Spin Rate</p>
+                                <h6 class="progress-rate m-0">2.401</h6>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-style progress-spin" role="progressbar"
+                                    aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- Progress Bar Component Pitch Movement -->
+                        <div class="summary-progress">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="progress-label mb-1">Pitch Movement</p>
+                                <h6 class="progress-rate m-0">90</h6>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-style progress-pitch" role="progressbar"
+                                    aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Recent Events -->
+            <div class="col-lg-6">
+                <div class="card my-lg-4">
+                    <div class="recent-events-card py-5 px-3">
+                        <div class="recent-events mb-4">
+                            <h6 class="info-heading">Recent Events</h6>
+                        </div>
+                        <div id="recentDateList" class="carousel slide" data-bs-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="box"></div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="box"></div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="box"></div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-next" type="button" data-bs-target="#recentDateList"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/bs5/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
