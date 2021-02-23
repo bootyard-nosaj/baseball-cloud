@@ -3,306 +3,386 @@
 /* FONT WEIGHT: 300, 400, 500 600, 700, 800, 900 */
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  background-color: rgba(50, 50, 50, 0.1);
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(80, 80, 80, 0.1);
+    color: rgba(50, 50, 50, 0.9);
 }
+
 
 /* Header */
 
+.white-background {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 1px 10px rgba(50, 50, 50, 0.2);
+}
+
+.shadow-effect {
+    box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.2);
+}
+
 .header .logo {
-  width: 70%;
+    width: 70%;
 }
 
 .header .custom-btn-toggler {
-  position: absolute;
-  right: 5%;
-  top: 10px;
+    position: absolute;
+    right: 5%;
+    top: 10px;
 }
 
 .header .custom-nav {
-  width: max-content;
+    width: max-content;
 }
 
 .custom-link .nav-link {
-  padding: 1rem 3rem;
+    padding: 1rem 3rem;
 }
 
-.marucci > .marucci-link {
-  font-weight: 800;
-  font-style: italic;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
+.marucci>.marucci-link {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
+
 
 /* profile dropdown */
 
 .profile-dropdown {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-picture {
-  clip-path: circle(40% at 50% 50%);
+    clip-path: circle(40% at 50% 50%);
 }
 
 .small-img {
-  width: 60px;
-  height: 40px;
+    width: 60px;
+    height: 40px;
 }
 
 .white {
-  background-color: rgb(255, 255, 255);
-  height: 20vh;
+    background-color: rgb(255, 255, 255);
+    height: 20vh;
 }
+
 
 /* End style of header */
 
+
 /* Dashboard Style */
+
 
 /* Personal Info */
 
 .personal-info-card {
-  position: relative;
+    position: relative;
 }
 
-.personal-info-card > .edit-info {
-  position: absolute;
-  right: 5%;
-  top: 2%;
-  width: 2.3rem;
-  height: 2.3rem;
-  outline: none;
-  border: none;
-  padding: 5px;
-  background: rgb(48, 175, 248);
-  border-radius: 60px;
+.personal-info-card>.edit-info {
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    width: 2.3rem;
+    height: 2.3rem;
+    outline: none;
+    border: none;
+    padding: 5px;
+    background: rgb(48, 175, 248);
+    border-radius: 60px;
 }
 
 .personal-info-card .fullname {
-  font-weight: 00;
+    font-weight: 400;
+}
+
+.personal-info-card .role-position {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.icon-title {
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 .large-img {
-  width: 140px;
-  height: 100px;
+    width: 140px;
+    height: 100px;
 }
 
 .info-heading {
-  width: max-content;
-  margin: 0 1rem 0 0;
-  font-weight: 800;
+    width: max-content;
+    margin: 0 1rem 0 0;
+    font-weight: 600;
+    color: rgb(50, 50, 50);
 }
 
-.info-divider > .info-heading.personal-heading {
-  width: 90%;
-  margin-right: 0;
+.info-divider>.info-heading.personal-heading {
+    width: 90%;
+    margin-right: 0;
 }
 
 .line-divider {
-  width: 100%;
-  height: 1px;
-  background-color: rgba(50, 50, 50, 0.3);
+    width: 100%;
+    height: 1px;
+    background-color: rgba(50, 50, 50, 0.3);
 }
 
 .icon-description {
-  margin: 0.6rem 0;
+    margin: 0.9rem 0;
 }
 
-.icon-description > .info-icon {
-  margin-right: 0.8rem;
+.icon-description>.info-icon {
+    margin-right: 0.8rem;
 }
 
 .info-attribute {
-  width: 24%;
-  height: auto;
-  text-align: left;
+    width: 24%;
+    height: auto;
+    text-align: left;
 }
 
 .reflect {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
+
 /* ---- */
+
 
 /* School */
 
 .small-heading {
-  font-size: 0.8rem;
+    font-size: 0.8rem;
 }
+
+.school-font {
+    font-size: 0.9rem;
+}
+
 
 /* end school style */
 
+
 /*  */
+
 
 /* Bio */
 
 .bio-container .bio-story {
-  font-size: 0.9rem;
-  line-height: 2.1em;
+    font-size: 0.9rem;
+    line-height: 2.1em;
 }
+
 
 /* Pitch Summary */
 
+.pitch-summary-card {
+    padding: 2.5rem 3rem;
+}
+
 .summary-progress .progress-rate {
-  font-weight: 500;
-  font-size: 0.9rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.summary-margin {
+    margin-bottom: 1.9rem;
 }
 
 .progress-label {
-  font-size: 0.9rem;
-  font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
-.summary-progress > .custom-progress {
-  height: 10px;
+.summary-progress>.custom-progress {
+    height: 5px;
 }
 
-.custom-progress > .progress-style {
-  background-color: rgb(255, 210, 32);
+.custom-progress>.progress-style {
+    background-color: rgb(255, 210, 32);
 }
 
 .progress-fastball {
-  width: 78%;
+    width: 78%;
 }
 
 .progress-spin {
-  width: 85%;
+    width: 85%;
 }
 
 .progress-pitch {
-  width: 90%;
+    width: 90%;
 }
 
+
 /* Recent Events */
+
+.recent-events-card {
+    padding: 2.5rem 3rem;
+}
+
 .btn-next-event {
-  position: absolute;
-  top: 10rem;
-  right: 1.5rem;
-  background-color: rgb(48, 175, 248);
-  width: 2.3rem;
-  height: 2.3rem;
-  border-radius: 40px;
-  z-index: 2;
+    position: absolute;
+    top: 10rem;
+    right: 1.5rem;
+    background-color: rgb(48, 175, 248);
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 40px;
+    z-index: 2;
 }
+
 .btn-next-event .fa-chevron-right {
-  font-size: 0.9rem;
+    font-size: 0.9rem;
 }
+
 .calendar-box {
-  width: max-content;
-  padding: 0.4rem 1rem;
-  margin: 2px 1rem 2px 0;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+    width: max-content;
+    padding: 0.4rem 1rem;
+    margin: 2px 1rem 2px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .calendar-icon {
-  margin: 1rem 0.5rem 0 0;
+    margin: 1rem 0.5rem 0 0;
 }
+
 .calendar-date {
-  padding: 0;
-  font-size: 2.5rem;
+    padding: 0;
+    font-size: 2.5rem;
 }
+
 .calendar-month {
-  margin: 0.7rem 0 0 0.5rem;
+    margin: 0.7rem 0 0 0.5rem;
 }
-.event-type > .calendar-event-type {
-  width: 90%;
-  font-size: 0.8rem;
+
+.event-type>.calendar-event-type {
+    width: 90%;
+    font-size: 0.8rem;
 }
+
 .player-member {
-  width: max-content;
+    width: max-content;
 }
+
 .x-small {
-  width: 30px;
-  height: 20px;
+    width: 30px;
+    height: 20px;
 }
+
 .fade-calendar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 300px;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 1)
-  );
-  width: 40%;
-  z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 300px;
+    background-image: linear-gradient( to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1));
+    width: 40%;
+    z-index: 1;
 }
+
+
 /* Data Table Person Info */
+
 .data-links {
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
 .pitch-modal {
-  position: absolute;
-  top: 50px;
+    position: absolute;
+    top: 50px;
 }
+
 .data-table-nav {
-  list-style-type: none;
+    list-style-type: none;
 }
+
 .data-nav {
-  font-weight: 600;
-  font-size: 0.9rem;
-  margin: 0 1rem;
-  padding-bottom: 0.9rem;
-  color: rgb(40, 40, 40);
-  text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 0 1rem;
+    padding-bottom: 0.9rem;
+    color: rgb(40, 40, 40);
+    text-decoration: none;
 }
 
 .data-nav:hover {
-  color: rgb(22, 127, 247);
+    color: rgb(22, 127, 247);
 }
 
 .data-item:hover .data-nav {
-  transition: 0.1s ease;
-  color: rgb(22, 127, 247);
-  border-bottom: 5px solid rgb(22, 127, 247);
+    transition: 0.1s ease;
+    color: rgb(22, 127, 247);
+    border-bottom: 5px solid rgb(22, 127, 247);
 }
+
+.pitch-item:hover {
+    background-color: rgba(48, 175, 248, 0.2);
+}
+
+.pitch-data-item:hover {
+    background-color: rgb(48, 175, 248);
+}
+
+
 /* Top pitching table */
+
 .data-heading {
-  padding: 2rem 3.5rem 0;
+    padding: 2rem 3.5rem 0;
 }
+
 .top-pitching {
-  padding: 0 6rem;
-  overflow-x: auto;
+    padding: 0 6rem;
+    overflow-x: auto;
 }
+
 .pitch-table {
-  width: 100%;
+    width: 100%;
 }
+
 .average-table {
-  padding: 0 6rem 8rem;
-  overflow-x: auto;
+    padding: 0 6rem 3.1rem;
+    overflow-x: auto;
 }
+
 .table-heading {
-  padding: 1rem;
-  font-size: 0.9rem;
-  font-weight: 100;
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-weight: 100;
 }
+
 .left {
-  padding: 0.8rem;
-  font-size: 0.9rem;
-  text-align: left;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    text-align: left;
 }
+
 .center {
-  padding: 0.8rem;
-  font-size: 0.9rem;
-  text-align: center;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    text-align: center;
 }
+
 .right {
-  padding: 0.8rem;
-  font-size: 0.9rem;
-  text-align: right;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    text-align: right;
 }
+
 .data-row {
-  font-weight: 500;
-  border-bottom: 0.5rem solid rgb(255, 255, 255);
-  background-color: rgba(180, 180, 180, 0.1);
+    font-weight: 500;
+    border-bottom: 0.3rem solid rgb(255, 255, 255);
+    background-color: rgba(180, 180, 180, 0.1);
 }
