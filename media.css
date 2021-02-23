@@ -27,7 +27,6 @@
   .data-heading {
     text-align: center;
   }
-  
 }
 
 @media only screen and (min-width: 576px) {
@@ -49,7 +48,6 @@
     right: 8%;
     top: 1.3rem;
   }
-  
 }
 
 @media only screen and (min-width: 768px) {
@@ -58,6 +56,14 @@
     position: absolute;
     right: 5%;
     top: 1.2rem;
+  }
+  .data-item {
+    margin: 1rem 0 0 0;
+  }
+  .data-item:hover .data-nav {
+    transition: 0.1s ease;
+    color: rgb(22, 127, 247);
+    border-bottom: none;
   }
 }
 
@@ -78,18 +84,21 @@
   .profile-dropdown .profile-picture {
     position: unset;
   }
+  .average-table{
+      padding-bottom: 7rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   /* X-large >= 1200px */
   .average-table {
-    padding-bottom: 6.1rem;
+    padding-bottom: 6rem;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   /* XX-Large >= 1400px */
   .average-table {
-    padding-bottom: 3.1rem;
+    padding-bottom: 2.1rem;
   }
 }
