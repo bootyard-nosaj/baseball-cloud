@@ -309,7 +309,8 @@
                     <div class="col">
                         <div class="card">
                             <div class="person-data-table">
-                                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <!-- Navigation to Person Data Attribute -->
+                                <nav class="navbar navbar-expand-lg navbar-light data-links p-3">
                                     <div class="container-fluid">
                                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -318,38 +319,90 @@
                                         </button>
                                         <div class="collapse navbar-collapse" id="navbarNav">
                                             <ul class="navbar-nav">
-                                                <li class="nav-item">
-                                                    <a class="nav-link data-nav" href="#">Bio Data</a>
+                                                <li class="data-item">
+                                                    <a class="data-nav" href="#">Bio Data</a>
                                                 </li>
-                                                <li class="nav-item dropdown">
-                                                    <a class="nav-link data-nav" href="#" id="navbarDropdown"
-                                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        Dropdown
+                                                <li class="data-item dropdown position-relative">
+                                                    <a class="data-nav" href="#" id="navbarDropdown" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Pitching Data
                                                     </a>
-                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <ul class="dropdown-menu pitch-modal"
+                                                        aria-labelledby="navbarDropdown">
+                                                        <li><a class="dropdown-item" href="#">Summary</a></li>
+                                                        <li><a class="dropdown-item" href="#">Charts</a></li>
                                                         <li>
-                                                            <hr class="dropdown-divider">
                                                         </li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        <li><a class="dropdown-item" href="#">Log</a>
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link data-nav" href="#">Events</a>
+                                                <li class="data-item w-auto">
+                                                    <a class="data-nav" href="#">Events</a>
                                                 </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link data-nav" href="#">Comparison</a>
+                                                <li class="data-item">
+                                                    <a class="data-nav" href="#">Comparison</a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </nav>
+                                <!-- Top Pitching -->
+                                <h6 class="data-heading">Top Pitching</h6>
+                                <div class="top-pitching">
+                                    <!-- top pitch table -->
+                                    <table class="pitch-table">
+                                        <tr>
+                                            <th class="table-heading left">Pitch Type</th>
+                                            <th class="table-heading center">Velocity</th>
+                                            <th class="table-heading right">Spin Rate</th>
+                                        </tr>
+                                        <tr class="data-row">
+                                            <td class="left">Fastball</td>
+                                            <td class="center">100.987</td>
+                                            <td class="right">312.585</td>
+                                        </tr>
+                                        <tr class="data-row">
+                                            <td class="left">Slider</td>
+                                            <td class="center">102.559</td>
+                                            <td class="right">312.585</td>
+                                        </tr>
+                                        <tr class="data-row">
+                                            <td class="left">Changeup</td>
+                                            <td class="center">102.559</td>
+                                            <td class="right">34.78</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <h6 class="data-heading">Average Pitching Values</h6>
+                                <!-- Average Pitching Values -->
+                                <div class="average-table">
+                                    <table class="pitch-table">
+                                        <tr>
+                                            <th class="table-heading left">Pitch Type</th>
+                                            <th class="table-heading center">Velocity</th>
+                                            <th class="table-heading right">Spin Rate</th>
+                                        </tr>
+                                        <tr class="data-row">
+                                            <td class="left">Fastball</td>
+                                            <td class="center">100.987</td>
+                                            <td class="right">2.23</td>
+                                        </tr>
+                                        <tr class="data-row">
+                                            <td class="left">Slider</td>
+                                            <td class="center">102.559</td>
+                                            <td class="right">0.0.36</td>
+                                        </tr>
+                                        <tr class="data-row">
+                                            <td class="left">Changeup</td>
+                                            <td class="center">101.824</td>
+                                            <td class="right"></td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

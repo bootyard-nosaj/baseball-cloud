@@ -237,10 +237,72 @@ body {
   z-index: 1;
 }
 /* Data Table Person Info */
-
+.data-links {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pitch-modal {
+  position: absolute;
+  top: 50px;
+}
+.data-table-nav {
+  list-style-type: none;
+}
 .data-nav {
   font-weight: 600;
   font-size: 0.9rem;
-  margin: 0 1.5rem 0 0;
-  color: rgb(40,40,40);
+  margin: 0 1rem;
+  padding-bottom: 0.9rem;
+  color: rgb(40, 40, 40);
+  text-decoration: none;
+}
+
+.data-nav:hover {
+  color: rgb(22, 127, 247);
+}
+
+.data-item:hover .data-nav {
+  transition: 0.1s ease;
+  color: rgb(22, 127, 247);
+  border-bottom: 5px solid rgb(22, 127, 247);
+}
+/* Top pitching table */
+.data-heading {
+  padding: 2rem 3.5rem 0;
+}
+.top-pitching {
+  padding: 0 6rem;
+  overflow-x: auto;
+}
+.pitch-table {
+  width: 100%;
+}
+.average-table {
+  padding: 0 6rem 3.1rem;
+  overflow-x: auto;
+}
+.table-heading {
+  padding: 1rem;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.left {
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  text-align: left;
+}
+.center {
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.right {
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  text-align: right;
+}
+.data-row {
+  font-weight: 500;
+  border-bottom: 0.5rem solid rgb(255, 255, 255);
+  background-color: rgba(180, 180, 180, 0.1);
 }
