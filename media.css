@@ -24,6 +24,10 @@
   .calendar-box {
     width: 100%;
   }
+  .data-heading {
+    text-align: center;
+  }
+  
 }
 
 @media only screen and (min-width: 576px) {
@@ -45,6 +49,7 @@
     right: 8%;
     top: 1.3rem;
   }
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,8 +82,14 @@
 
 @media only screen and (min-width: 1200px) {
   /* X-large >= 1200px */
+  .average-table {
+    padding-bottom: 6.1rem;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
   /* XX-Large >= 1400px */
+  .average-table {
+    padding-bottom: 3.1rem;
+  }
 }
