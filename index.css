@@ -135,7 +135,7 @@ body {
 .line-divider {
     width: 100%;
     height: 1px;
-    background-color: rgba(50, 50, 50, 0.3);
+    background-color: rgba(50, 50, 50, 0.1);
 }
 
 .icon-description {
@@ -165,10 +165,6 @@ body {
 
 .small-heading {
     font-size: 0.8rem;
-}
-
-.school-font {
-    font-size: 0.9rem;
 }
 
 
@@ -297,7 +293,7 @@ body {
 
 .data-links {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(50, 50, 50, 0.1);
 }
 
 .pitch-modal {
